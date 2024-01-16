@@ -3,7 +3,6 @@ import './about.css'
 import myImage from '../../assets/avatar.png'
 import {GiGraduateCap} from 'react-icons/gi'
 import {BsBookmarkStar} from 'react-icons/bs'
-import {TfiWorld} from 'react-icons/tfi'
 
 const About = () => {
   return (
