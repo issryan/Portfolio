@@ -20,8 +20,8 @@ const Myprojects = () => {
             <h3>My Portfolio</h3>
             <small className='text-light'>ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://github.com/issryan/Portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://ryanarafeh.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>

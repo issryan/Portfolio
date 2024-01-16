@@ -45,6 +45,7 @@
     padding: .6rem;
     text-align: center;
     transition: var(--transition);
+    color: white;
 }
 
 .about__card:hover{
@@ -52,6 +53,7 @@
     background: transparent;
     border-color: var(--color-primary);
     cursor: default;
+    color: black;
 }
 
 .about__icon{

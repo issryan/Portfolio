@@ -2,7 +2,6 @@ import React from 'react'
 import './footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
-import {BsMedium} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -21,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__copyright">
-            <small>&copy; Ryan Arafeh. All rightts reserved.</small>
+            <small>&copy; Ryan Arafeh. All rights reserved.</small>
         </div>
     </footer>
   )
