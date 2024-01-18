@@ -12,15 +12,16 @@ const Footer = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#myprojects">My Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
 
         <div className="footer__socials">
-          <a href="https://www.linkedin.com/in/thakshila-bandara-2791b9214"><BsLinkedin/></a>
-          <a href="https://github.com/Thakshila-Bandara"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/ryanarafeh" target="_blank" rel='noreferrer'><BsLinkedin/></a>
+        <a href="https://github.com/issryan" target="_blank" rel='noreferrer'><BsGithub/></a>
         </div>
 
         <div className="footer__copyright">
-            <small>&copy; Ryan Arafeh. All rights reserved.</small>
+            <small>Copyright &#169; 2024 Ryan Arafeh. All Rights Reserved.</small>
         </div>
     </footer>
   )
