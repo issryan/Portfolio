@@ -20,18 +20,18 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: black;
     font-size: 1.1rem;
 
 }
 
 nav a:hover {
-
     background: rgba(0, 0, 0, 0.4);
+    transition: ease-in 300ms;
 }
 
 nav a.active {
 
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: grey;
+    color: white;
 }
