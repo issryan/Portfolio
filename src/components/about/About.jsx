@@ -1,8 +1,10 @@
 import React from 'react'
 import './about.css'
 import myImage from '../../assets/avatar.png'
-import {GiGraduateCap} from 'react-icons/gi'
-import {BsBookmarkStar} from 'react-icons/bs'
+import educationIcon from '../../assets/education.png'
+import GPAIcon from '../../assets/grade.png'
+import hobbiesIcon from '../../assets/hobbies.png'
+
 
 const About = () => {
   return (
@@ -21,7 +23,7 @@ const About = () => {
           <div class="about-containers">
             <div class="details-container">
               <img
-                src={BsBookmarkStar}
+                src={educationIcon}
                 alt="Experience icon"
                 class="icon"
               />
@@ -30,7 +32,7 @@ const About = () => {
             </div>
             <div class="details-container">
               <img
-                src={GiGraduateCap}
+                src={GPAIcon}
                 alt="Education icon"
                 class="icon"
               />
@@ -39,7 +41,7 @@ const About = () => {
             </div>
             <div class="details-container">
               <img
-                src={GiGraduateCap}
+                src={hobbiesIcon}
                 alt="Education icon"
                 class="icon"
               />
