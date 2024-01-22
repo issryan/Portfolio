@@ -51,12 +51,9 @@ const About = () => {
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Hello, I'm Ryan Arafeh, a dedicated student in the realm of Software Engineering Technology, driven by the passion to evolve into a future web developer and front-end specialist. Currently immersed in the dynamic world of coding and technology, I am honing my skills to create seamless and visually appealing digital experiences. My journey is fueled by a deep curiosity for the intersection of creativity and technology, with a keen interest in crafting user-friendly interfaces.
+              <br/><br/>
+              Outside the world of coding, I find joy in capturing moments through photography and expressing my creativity through video editing. Check out my photos below, where I showcase glimpses of the world through my lens. As I navigate the exciting landscape of software engineering, I am eager to contribute innovative solutions to the ever-evolving web development space. Join me on this exhilarating journey as I strive to make a meaningful impact in the digital realm.
             </p>
           </div>
         </div>
