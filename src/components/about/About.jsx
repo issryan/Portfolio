@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import ImageCarousel from './carousel';
 import myImage from '../../assets/avatar.png'
 import educationIcon from '../../assets/education.png'
 import GPAIcon from '../../assets/grade.png'
@@ -53,6 +54,9 @@ const About = () => {
             <p>
               Hey, I'm Ryan Arafeh, a Software Engineering student navigating the coding maze. Currently knee-deep in algorithms and projects, I'm on a mission to make tech as cool as it can get. When I'm not wrestling with code, you'll catch me snapping pics of my daily adventures. From the hustle of the city to the chill vibes of nature, my camera's always ready. Right now, I'm gearing up to dive into the world of either data analysis or web development. Currently on the lookout for an internship, so if you've got exciting projects and a spot on your team, I'm all ears. Let's connect and explore the exciting intersections of code and creativity!
             </p>
+          </div>
+          <div class="carousel-container">
+            <ImageCarousel/>
           </div>
         </div>
       </div>
