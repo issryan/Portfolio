@@ -51,9 +51,7 @@ const About = () => {
           </div>
           <div class="text-container">
             <p>
-              Hello, I'm Ryan Arafeh, a dedicated student in the realm of Software Engineering Technology, driven by the passion to evolve into a future web developer and front-end specialist. Currently immersed in the dynamic world of coding and technology, I am honing my skills to create seamless and visually appealing digital experiences. My journey is fueled by a deep curiosity for the intersection of creativity and technology, with a keen interest in crafting user-friendly interfaces.
-              <br/><br/>
-              Outside the world of coding, I find joy in capturing moments through photography and expressing my creativity through video editing. Check out my photos below, where I showcase glimpses of the world through my lens. As I navigate the exciting landscape of software engineering, I am eager to contribute innovative solutions to the ever-evolving web development space. Join me on this exhilarating journey as I strive to make a meaningful impact in the digital realm.
+              Hey, I'm Ryan Arafeh, a Software Engineering student navigating the coding maze. Currently knee-deep in algorithms and projects, I'm on a mission to make tech as cool as it can get. When I'm not wrestling with code, you'll catch me snapping pics of my daily adventures. From the hustle of the city to the chill vibes of nature, my camera's always ready. Right now, I'm gearing up to dive into the world of either data analysis or web development. Currently on the lookout for an internship, so if you've got exciting projects and a spot on your team, I'm all ears. Let's connect and explore the exciting intersections of code and creativity!
             </p>
           </div>
         </div>
