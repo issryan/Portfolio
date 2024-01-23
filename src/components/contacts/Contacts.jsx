@@ -17,7 +17,7 @@ const Contacts = () => {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><a href="mailto:arafehryan@gmail.com">arafehryan@gmail.com</a></p>
+          <p><a href="mailto:arafehryan@gmail.com" className='contact-info'>arafehryan@gmail.com</a></p>
         </div>
         <div className="contact-info-container">
           <img
@@ -25,7 +25,7 @@ const Contacts = () => {
             alt="LinkedIn icon"
             className="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/ryanarafeh">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/ryanarafeh"className='contact-info'>LinkedIn</a></p>
         </div>
       </div>
     </section>
