@@ -53,7 +53,7 @@ const Experience = () => {
                 />
                 <div>
                   <h3>React</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -80,7 +80,7 @@ const Experience = () => {
                 />
                 <div>
                   <h3>Python</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
