@@ -56,7 +56,7 @@ const About = () => {
             </p>
           </div>
           <div class="carousel-container">
-            <ImageCarousel/>
+
           </div>
         </div>
       </div>
