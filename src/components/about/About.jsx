@@ -38,7 +38,7 @@ const About = () => {
                 class="icon"
               />
               <h3>GPA</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>3.5</p>
             </div>
             <div class="details-container">
               <img
