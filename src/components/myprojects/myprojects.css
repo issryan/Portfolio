@@ -1,66 +1,71 @@
-.portfolio__container{
-
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
-    color: white !important;
-}
-
-.portfolio__item{
-
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
+#projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+  }
+  
+  .project-img {
     border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  
+/* BUTTONS */
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.portfolio__item:hover{
-
-    border-color: var(--color-primary-variant);
-    background: #96EFFF;
-    color: black !important;
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
-.portfolio__item-image{
-
-    border-radius: 1.5rem;
-    overflow: hidden;
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.portfolio__item h3{
-
-    margin: 1.2rem 0 .5rem;
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
 }
 
-.portfolio__item-cta{
-
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    gap: 1rem;
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
 }
 
-/* Media queries for medium devices(Tablets) */
-
-@media screen and (max-width: 1024px) {
-
-    .portfolio__container{
-
-       grid-template-columns: 1fr 1fr; /*50% from left 50% from right  */
-       gap: 1.2rem;
-    }
-
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
 }
 
-/* Media queries for small devices(Mobiles) */
+.btn-color-2 {
+  background: none;
+}
 
-@media screen and (max-width: 600px) {
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
 
-    .portfolio__container{
+a.btn.btn-color-2{
+  color: #353535;
+}
 
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+a.btn-color-2:hover{
+color: white;
 }

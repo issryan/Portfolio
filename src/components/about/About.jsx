@@ -1,57 +1,64 @@
 import React from 'react'
 import './about.css'
+import ImageCarousel from './carousel';
 import myImage from '../../assets/avatar.png'
-import {GiGraduateCap} from 'react-icons/gi'
-import {BsBookmarkStar} from 'react-icons/bs'
+import educationIcon from '../../assets/education.png'
+import GPAIcon from '../../assets/grade.png'
+import hobbiesIcon from '../../assets/hobbies.png'
+
 
 const About = () => {
   return (
-    <section id='about'>
-      
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
-
-      <div className="container about__container">
-
-          <div className="about__me">
-            <div className="about__me-image">
-                <img src={myImage} alt="Me" />
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src={myImage}
+            alt="Profile"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src={educationIcon}
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Software Engineering Technology <br />@Centennial College</p>
+            </div>
+            <div class="details-container">
+              <img
+                src={GPAIcon}
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>GPA</h3>
+              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+            </div>
+            <div class="details-container">
+              <img
+                src={hobbiesIcon}
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Hobbies</h3>
+              <p>Video Editing<br />Photography</p>
             </div>
           </div>
-
-          <div className="about__content">
-            <div className="about__cards">
-
-              <article className='about__card'>
-                  <GiGraduateCap className='about__icon'/>
-                  <h5>Degree</h5>
-                  <small>Advanced Diploma in Software Engineering Tehcnology<br /><i>@Centennial College</i></small>
-              </article>
-
-              <article className='about__card'>
-                  <BsBookmarkStar className='about__icon'/>
-                  <h5>Current GPA</h5>
-                  <small>3.5</small>
-              </article>
-
-              <article className='about__card'>
-                  <h5>My Hobbies</h5>
-                  <small>
-                    <ul>
-                      <li>Photography</li>
-                      <li>Video Editing</li>
-                    </ul>
-                  </small>
-              </article>
-
-              
-
-            </div>
+          <div class="text-container">
             <p>
-                    about me paragraph here!!
+              Hey, I'm Ryan Arafeh, a Software Engineering student navigating the coding maze. Currently knee-deep in algorithms and projects, I'm on a mission to make tech as cool as it can get. When I'm not wrestling with code, you'll catch me snapping pics of my daily adventures. From the hustle of the city to the chill vibes of nature, my camera's always ready. Right now, I'm gearing up to dive into the world of either data analysis or web development. Currently on the lookout for an internship, so if you've got exciting projects and a spot on your team, I'm all ears. Let's connect and explore the exciting intersections of code and creativity!
             </p>
-
           </div>
+          <div class="carousel-container">
+            <ImageCarousel/>
+          </div>
+        </div>
       </div>
     </section>
   )

@@ -1,15 +1,16 @@
 footer{
 
-    background: var(--color-primary);
+    background: #353535;
     padding: 3rem 0;
     text-align: center;
     font-size: .9rem;
     margin-top: 7rem;
+    color: white;
 }
 
 footer a{
 
-    color: var(--color-bg);
+    color: white;
 }
 
 .footer__logo{
@@ -38,19 +39,24 @@ footer a{
     margin-bottom: 4rem;
 }
 
-.footer__socials a{
-
-    color: var(--color-white);
-    padding: .8rem;
-    border-radius: .7rem;
-    display: flex;
-    border: 1px solid transparent;
+.footer-link {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
 }
 
-.footer__socials a:hover{
+.footer-link:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition: ease-in 250ms;
+}
 
-    background: transparent;
-    color: rgb(53,53,53);
+.footer-icon {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
 }
 
 .footer__copyright{

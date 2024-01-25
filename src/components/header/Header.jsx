@@ -7,19 +7,19 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
     <header id='home'>
-      <section id='profile'>
-        <div class='section__pic-container'>
-          <img src={me} alt="Ryan Arafeh profile picture" />
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src={me} alt="Avatar" />
         </div>
         <div class="section__text">
-          <p class="section__text_p1"ß>Hello, I'm</p>
-          <h1 class="title">Ryan Arafeh </h1>
-          <p class="section__text__p2">Software Engineering Student</p>
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Ryan Arafeh</h1>
+          <p class="section__text__p2">Software Engineer!</p>
           <div class="btn-container">
-            <CTA />
+            <CTA/>
           </div>
           <div id="socials-container">
-            <HeaderSocials />
+            <HeaderSocials/>
           </div>
         </div>
       </section>

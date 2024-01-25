@@ -1,82 +1,144 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './experience.css';
+import checkmark from '../../assets/checkmark.png'
 
 const Experience = () => {
-   const [toggleState, setToggleState] = useState(1);
-   const toggleTab = (index) => {
-    setToggleState(index);
-   };
-   
   return (
-    <section id='experience'>
-      <h2 className='section__title'>Qualifications</h2>
-
-      <div className='qualification__container container'>
-        <div className='qualification__tabs'>
-          <div className={toggleState === 1 ? "qualification__button qualification_active button--flex" : "qualification__button qualification_active button--flex"
-        }
-        onClick={() => toggleTab(1)}
-        >
-
-
-            <i className='uil uil-graduation-cap qualification__icon'>
-            </i> Skillset
-          </div>
-
-          <div className={toggleState === 2 ? "qualification__button qualification_active button--flex" : "qualification__button qualification_active button--flex"}
-          onClick={() => toggleTab(2)}>
-            <i className='uil uil-briefcase-alt qualification__icon'>
-            </i> Experience
-          </div>
-        </div>
-
-        <div className='qualification__sections'>
-          <div className={toggleState === 1 ? 'qualification__content qualification__content-active' : "qualification__content"}>
-            
-
-
-
-
-
-
-
-          </div>
-
-          <div className={toggleState === 2 ? 'qualification__content qualification__content-active' : "qualification__content"}>
-          <div className='qualification__data'>
-              <div>
-                <h3 className='qualification__title'>Senior Customer Experience Associate</h3>
-                <span className='qualification__subtitle'>Scotiabank - Toronto, Canada</span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2023 - Present
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
                 </div>
-              </div>
-
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div></div>
-
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-
-              <div>
-                <h3 className='qualification__title'>Customer Experience Associate</h3>
-                <span className='qualification__subtitle'>Scotiabank - Toronto, Canada</span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2022 - 2023
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
                 </div>
-              </div>
-
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
             </div>
-
-            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </div>

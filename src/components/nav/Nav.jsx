@@ -20,8 +20,8 @@ const Nav = () => {
       <a href="#home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser /></a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><FaLaptopCode /></a>
-      <a href="#myprojects" onClick={() => setActiveNav('#myprojects')} className={activeNav === '#myprojects' ? 'active' : ''}><GoChecklist /></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contacts' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      <a href="#projects" onClick={() => setActiveNav('#myprojects')} className={activeNav === '#myprojects' ? 'active' : ''}><GoChecklist /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
 
     </nav>
   )

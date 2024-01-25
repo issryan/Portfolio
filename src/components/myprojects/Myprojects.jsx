@@ -7,50 +7,54 @@ import IMG3 from '../../assets/shift_logo.png'
 
 const Myprojects = () => {
   return (
-    <section id='myprojects'>
-
-      <h2>My Projects</h2>
-
-      <div className="container portfolio__container">
-
-      <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG1} alt="" />
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src={IMG1}
+                alt="Project 1"
+                class="project-img"
+              />
             </div>
-            <h3>My Portfolio</h3>
-            <small className='text-light'>ReactJs</small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/issryan/Portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://ryanarafeh.netlify.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <div class="btn-container">
+              <a href="https://github.com/issryan/Portfolio" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
+              <a href="https://ryanarafeh.netlify.app/" className='btn btn-color-1'target="_blank" rel='noreferrer'>Live Demo</a>
             </div>
-            
-        </article>
-
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG2} alt="" />
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src={IMG2}
+                alt="Project 2"
+                class="project-img"
+              />
             </div>
-            <h3>Alphard Survey</h3>
-            <small className='text-light'>EJS | Javascript | CSS</small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            <h2 class="experience-sub-title project-title">Alphard Survey</h2>
+            <div class="btn-container">
+              <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
+              <a href="https://ryanarafeh.netlify.app/"className='btn btn-color-1' target="_blank" rel='noreferrer'>Live Demo</a>
             </div>
-              
-        </article>
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG3} alt="" />
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src={IMG3}
+                alt="Project 3"
+                class="project-img"
+              />
             </div>
-            <h3>Shift Happens</h3>
-            <small className='text-light'>MongoDB | Express.js | React | Node.js</small>
-            <div className="portfolio__item-cta">
-              <a href="" target="_blank" rel='noreferrer' className='btn'>Github</a>  
-              <a href="" target="_blank" rel='noreferrer' className='btn btn-primary'>In Progress...</a>  
+            <h2 class="experience-sub-title project-title">Shift Happens</h2>
+            <div class="btn-container">
+            <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
+              <a href="https://ryanarafeh.netlify.app/" className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</a>
             </div>
-            
-        </article>
-        
+          </div>
+        </div>
       </div>
     </section>
   )
