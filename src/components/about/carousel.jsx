@@ -1,12 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './about.css'
-import image1 from '../../assets/Photos/IMG_0843.jpg';
 import image2 from '../../assets/Photos/Snapseed 2.jpg';
 import image3 from '../../assets/Photos/Snapseed.jpg';
 
 const ImageCarousel = () => {
-    const images = [image1, image2, image3];
+    const images = [image2, image3];
   
     return (
       <div className="carousel-wrapper">

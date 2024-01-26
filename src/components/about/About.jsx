@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ImageCarousel from './carousel';
 import myImage from '../../assets/camera-avatar.png'
 import educationIcon from '../../assets/education.png'
 import GPAIcon from '../../assets/grade.png'
