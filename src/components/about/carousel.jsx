@@ -1,8 +1,17 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './about.css'
+
 import image2 from '../../assets/Photos/Snapseed 2.jpg';
 import image3 from '../../assets/Photos/Snapseed.jpg';
+import image4 from '../../assets/Photos/cntower.png';
+import image5 from '../../assets/Photos/cntowerclose.png';
+import image6 from '../../assets/Photos/IMG_1116.jpg';
+import image7 from '../../assets/Photos/IMG_1286.jpg';
+import image8 from '../../assets/Photos/IMG_1375.jpg';
+import image9 from '../../assets/Photos/IMG_2071.jpg';
+import image10 from '../../assets/Photos/treetop.png';
+
 
 const ImageCarousel = () => {
     const images = [image2, image3];
