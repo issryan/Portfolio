@@ -74,6 +74,7 @@
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
+  color: white;
 }
 
 .btn-color-2 {
@@ -90,4 +91,14 @@ a.btn.btn-color-2{
 
 a.btn-color-2:hover{
 color: white;
+}
+
+.header-icon {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.header-icon:hover{
+  color: gray;
+  text-decoration: none;
+  transition: ease-in 250ms;
 }
