@@ -6,6 +6,16 @@ import IMG3 from '../../assets/shift_logo.png'
 
 
 const Myprojects = () => {
+  
+  //alerts for when user clicks live demo buttons
+  function shiftAlert() {
+    alert('IM WORKING ON IT!');
+  }
+
+  function portfolioAlert() {
+    alert("You're already here silly!");
+  }
+
   return (
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -23,7 +33,7 @@ const Myprojects = () => {
             <h2 class="experience-sub-title project-title">Portfolio</h2>
             <div class="btn-container">
               <a href="https://github.com/issryan/Portfolio" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              <a href="https://ryanarafeh.netlify.app/" className='btn btn-color-1'target="_blank" rel='noreferrer'>Live Demo</a>
+              <button onClick={portfolioAlert} className='btn btn-color-1' target="_blank" rel='noreferrer'>Live Demo</button>
             </div>
           </div>
           <div class="details-container color-container">
@@ -51,7 +61,7 @@ const Myprojects = () => {
             <h2 class="experience-sub-title project-title">Shift Happens</h2>
             <div class="btn-container">
             <a href="https://github.com/issryan/ShiftHappens" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              <a href="https://ryanarafeh.netlify.app/" className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</a>
+            <button onClick={shiftAlert} className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</button>
             </div>
           </div>
         </div>
