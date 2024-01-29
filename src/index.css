@@ -49,7 +49,7 @@ body {
   /* ICONS */
   
   .icon {
-    cursor: pointer;
+    cursor: default;
     height: 2rem;
   }
   

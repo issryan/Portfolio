@@ -12,6 +12,13 @@ footer a{
 
     color: white;
 }
+footer a:hover{
+
+    color: gray;
+    transition: ease-in 250ms;
+    text-decoration: none;
+
+}
 
 .footer__logo{
 
@@ -39,6 +46,7 @@ footer a{
     margin-bottom: 4rem;
 }
 
+
 .footer-link {
     color: white;
     text-decoration: none;
@@ -47,7 +55,7 @@ footer a{
 
 .footer-link:hover {
     color: grey;
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
     transition: ease-in 250ms;
@@ -56,13 +64,17 @@ footer a{
 .footer-icon {
     color: white;
     text-decoration: none;
-    text-decoration-color: white;
+}
+.footer-icon:hover{
+    color: gray;
+    text-decoration: none;
+    transition: ease-in 250ms;
 }
 
 .footer__copyright{
 
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: white;
 }
 
 /* Media queries for small devices(Mobiles) */
