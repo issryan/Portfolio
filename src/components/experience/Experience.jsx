@@ -5,18 +5,18 @@ import checkmark from '../../assets/checkmark.png'
 const Experience = () => {
   return (
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
+      <p className="section__text__p1">Explore My</p>
+      <h1 className="title">Skills</h1>
+      <div className="experience-details-container">
+        <div className="about-containers">
+          <div className="details-container">
+            <h2 className="experience-sub-title">Frontend Development</h2>
+            <div className="article-container">
               <article>
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>HTML</h3>
@@ -27,7 +27,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>CSS</h3>
@@ -38,7 +38,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>JavaScript</h3>
@@ -49,7 +49,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>React</h3>
@@ -60,7 +60,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>Bootstrap</h3>
@@ -69,14 +69,14 @@ const Experience = () => {
               </article>
             </div>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
+          <div className="details-container">
+            <h2 className="experience-sub-title">Backend Development</h2>
+            <div className="article-container">
               <article>
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>Python</h3>
@@ -87,7 +87,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>SQL</h3>
@@ -98,7 +98,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>MongoDB</h3>
@@ -109,7 +109,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>Github</h3>
@@ -120,7 +120,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>Node.js</h3>
@@ -131,7 +131,7 @@ const Experience = () => {
                 <img
                   src={checkmark}
                   alt="Experience icon"
-                  class="icon"
+                  className="icon"
                 />
                 <div>
                   <h3>Express.js</h3>

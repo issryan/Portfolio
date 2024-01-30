@@ -1,0 +1,32 @@
+/* modal.css */
+.modal-content {
+    height: 100vh;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+
+.modal-dialog {
+    max-width: 90%;
+    border: none;
+}
+
+.modal-header {
+    background-color: #333;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 0;
+    height: calc(100vh - 56px);
+    /* 56px is the height of the modal header, adjust if needed */
+}
+
+.carousel-wrapper {
+    height:auto;
+}
+
+.carousel-item img {
+    width: 700px !important;
+    height: 100%;
+}
