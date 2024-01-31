@@ -58,17 +58,10 @@ const Myprojects = () => {
                 className="project-img"
               />
             </div>
-<<<<<<< HEAD
             <h2 class="experience-sub-title project-title">Shift Happens</h2>
             <div class="btn-container">
             <a href="https://github.com/issryan/ShiftHappens" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
             <button onClick={shiftAlert} className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</button>
-=======
-            <h2 className="experience-sub-title project-title">Shift Happens</h2>
-            <div className="btn-container">
-            <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              <a href="https://ryanarafeh.netlify.app/" className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</a>
->>>>>>> ba46b9e (Implemented Modal Carousel Component, Modified classnames tag for project)
             </div>
           </div>
         </div>
