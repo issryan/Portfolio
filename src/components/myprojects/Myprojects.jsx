@@ -47,7 +47,7 @@ const Myprojects = () => {
             <h2 class="experience-sub-title project-title">Alphard Survey</h2>
             <div class="btn-container">
               <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              <a href="https://ryanarafeh.netlify.app/"className='btn btn-color-1' target="_blank" rel='noreferrer'>Live Demo</a>
+              
             </div>
           </div>
           <div class="details-container color-container">
