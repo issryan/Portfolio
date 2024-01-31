@@ -23,10 +23,35 @@
 }
 
 .carousel-wrapper {
-    height:auto;
+    height: auto;
 }
 
 .carousel-item img {
-    width: 700px !important;
+    width: 625px !important;
     height: 100%;
+    padding-top: 50px;
+}
+
+
+.carousel-button {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.carousel-button:hover {
+    cursor: pointer;
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.carousel-button-wrapper {
+    display: flex;
+    justify-content: center;
 }
