@@ -10,12 +10,16 @@ const About = () => {
 
 
   const carouselImages = [
-    require('../../assets/Photos/B66F5D65-1A09-40BB-94E1-647F9B9631FE_Original.jpeg'),
     require('../../assets/Photos/Snapseed 2.jpg'),
     require('../../assets/Photos/Snapseed.jpg'),
     require('../../assets/Photos/cntower.png'),
     require('../../assets/Photos/cntowerclose.png'),
     require('../../assets/Photos/treetop.png'),
+    require('../../assets/Photos/B66F5D65-1A09-40BB-94E1-647F9B9631FE_Original.jpeg'),
+    require('../../assets/Photos/IMG_2071.jpg'),
+    require('../../assets/Photos/IMG_1375.jpg'),
+    require('../../assets/Photos/IMG_1286.jpg'),
+    require('../../assets/Photos/IMG_1116.jpg'),
   ];
 
   const [showModal, setShowModal] = useState(false);
