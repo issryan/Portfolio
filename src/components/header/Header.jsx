@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <header id='home'>
       <section id="profile">
-        <div class="section__pic-container">
+        <div className="section__pic-container">
           <img src={me} alt="Avatar" />
         </div>
-        <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
-          <h1 class="title">Ryan Arafeh</h1>
-          <p class="section__text__p2">Software Engineer!</p>
-          <div class="btn-container">
+        <div className="section__text">
+          <p className="section__text__p1">Hello, I'm</p>
+          <h1 className="title">Ryan Arafeh</h1>
+          <p className="section__text__p2">Software Engineer!</p>
+          <div className="btn-container">
             <CTA/>
           </div>
           <div id="socials-container">
