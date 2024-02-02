@@ -49,3 +49,19 @@ img.email-icon {
     text-decoration-color: rgb(181, 181, 181);
     transition: ease-in 250ms;
 }
+
+@media screen and (max-width: 768px) {
+    .contact-info-upper-container {
+        flex-direction: column; /* Stack contact info vertically on smaller screens */
+        align-items: center;
+    }
+
+    .contact-info-container {
+        flex-direction: column; /* Stack contact info vertically on smaller screens */
+        text-align: center;
+    }
+
+    img.email-icon {
+        height: 2rem; /* Adjust the height of the email icon on smaller screens */
+    }
+}
