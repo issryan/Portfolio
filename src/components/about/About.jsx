@@ -64,7 +64,7 @@ const About = () => {
                 className="icon"
               />
               <h3>GPA</h3>
-              <p>3.5</p>
+              <p>3.66</p>
             </div>
             <div className="details-container">
               <img
@@ -73,7 +73,7 @@ const About = () => {
                 className="icon"
               />
               <h3>Hobbies</h3>
-              <p>Video Editing<br />Photography</p>
+              <p>Video Editing<br />Photography<br /> Exploring</p>
             </div>
           </div>
           <div className="text-container">
