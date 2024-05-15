@@ -20,6 +20,7 @@
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    align-items: center;
 }
 
 .contact-info-container p {
@@ -28,10 +29,14 @@
 
 .contact-icon {
     cursor: default;
+    width: 2rem;
+    height: auto;
+    transition: width 0.3s ease;
 }
 
 img.email-icon {
     height: 2.5rem;
+    width: auto;
 }
 
 .contact-info {
@@ -47,20 +52,28 @@ img.email-icon {
 
 @media screen and (max-width: 768px) {
     #contact {
-        padding-top: 30px; 
+        padding-top: 30px;
     }
 
     .contact-info-upper-container {
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
     }
 
     .contact-info-container {
-        flex-direction: column; 
+        flex-direction: column;
         text-align: center;
     }
 
+    .contact-icon {
+        width: 1.5rem;
+    }
+
     img.email-icon {
-        height: 2rem; 
+        height: 2rem;
+    }
+
+    .contact-info {
+        font-size: 0.9rem;
     }
 }
