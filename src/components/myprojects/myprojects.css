@@ -1,5 +1,33 @@
-/* Apply styles only within the my-projects-section */
-.my-projects-section .details-container {
+.projects-details-container { 
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.projects-info-container { 
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.projects-info-container:hover {
+  transform: scale(1.05);
+}
+
+.projects-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projects-button:hover {
+  background-color: #0056b3;
+}.my-projects-section .details-container {
   background: #fff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -35,7 +63,6 @@
   opacity: 0.9;
 }
 
-/* Grid layout scoped to project section */
 .my-projects-section .about-containers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

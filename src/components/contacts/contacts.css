@@ -2,15 +2,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh
+    height: 70vh;
 }
 
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53)0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: 0.1rem solid rgb(163, 163, 163);
     background: rgb(250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
@@ -33,35 +32,35 @@
 
 img.email-icon {
     height: 2.5rem;
-
 }
 
 .contact-info {
     color: black;
     text-decoration: none;
-    text-decoration-color: white;
 }
 
 .contact-info:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
-    transition: ease-in 250ms;
 }
 
 @media screen and (max-width: 768px) {
+    #contact {
+        padding-top: 30px; 
+    }
+
     .contact-info-upper-container {
-        flex-direction: column; /* Stack contact info vertically on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
 
     .contact-info-container {
-        flex-direction: column; /* Stack contact info vertically on smaller screens */
+        flex-direction: column; 
         text-align: center;
     }
 
     img.email-icon {
-        height: 2rem; /* Adjust the height of the email icon on smaller screens */
+        height: 2rem; 
     }
 }

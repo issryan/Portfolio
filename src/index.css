@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,160 +12,164 @@
 
 body {
     font-family: "Poppins", sans-serif;
-  }
-  
-  html {
+}
+
+html {
     scroll-behavior: smooth;
-  }
-  
-  p {
+}
+
+p {
     color: rgb(85, 85, 85);
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 2rem;
-  }
-  
-  .logo:hover {
+}
+
+.logo:hover {
     cursor: default;
-  }
-  
-  /* SECTIONS */
-  
-  section {
+}
+
+/* SECTIONS */
+section {
     padding-top: 4vh;
-    height: 96vh;
+    min-height: 96vh; /* Changed from 'height' to 'min-height' */
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
-  }
-  
-  .section-container {
+}
+
+.section-container {
     display: flex;
-  }
-  
-  
-  /* ICONS */
-  
-  .icon {
+}
+
+/* ICONS */
+.icon {
     cursor: default;
     height: 2rem;
-  }
-  
-  article {
+}
+
+article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
-  }
-  
-  article .icon {
-    cursor: default;
-  }
+}
 
-  /*media queries for responsiveness*/
-  
-  @media screen and (max-width: 1400px) {
+article .icon {
+    cursor: default;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+@media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
+        height: 83vh;
+        margin-bottom: 6rem;
     }
     .about-containers {
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     #contact,
     #projects {
-      height: fit-content;
+        height: fit-content;
     }
-  }
-  
-  @media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
     #desktop-nav {
-      display: none;
+        display: none;
     }
     #hamburger-nav {
-      display: flex;
+        display: flex;
     }
     #experience,
     .experience-details-container {
-      margin-top: 2rem;
+        margin-top: 2rem;
     }
     #profile,
     .section-container {
-      display: block;
+        display: block;
     }
     .arrow {
-      display: none;
+        display: none;
     }
     section,
     .section-container {
-      height: fit-content;
+        height: fit-content;
     }
     section {
-      margin: 0 5%;
+        margin: 0 5%;
     }
     .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
     }
     .about-containers {
-      margin-top: 0;
+        margin-top: 0;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     #contact,
     footer {
-      height: 40vh;
+        height: 40vh;
     }
     #profile {
-      height: 83vh;
-      margin-bottom: 0;
+        height: 83vh;
+        margin-bottom: 0;
     }
     article {
-      font-size: 1rem;
+        font-size: 1rem;
     }
     footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
+        height: fit-content;
+        margin-bottom: 2rem;
     }
     .about-containers,
     .contact-info-upper-container,
     .btn-container {
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .contact-info-container {
-      margin: 0;
+        margin: 0;
     }
     .contact-info-container p,
     .nav-links li a {
-      font-size: 1rem;
+        font-size: 1rem;
     }
     .experience-sub-title {
-      font-size: 1.25rem;
+        font-size: 1.25rem;
     }
     .logo {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
     .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
     }
     .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
+        width: auto;
+        height: 46vw;
+        justify-content: center;
     }
     .section__text__p2 {
-      font-size: 1.25rem;
+        font-size: 1.25rem;
     }
     .title {
-      font-size: 2rem;
+        font-size: 2rem;
     }
     .text-container {
-      text-align: justify;
+        text-align: justify;
     }
-  }
-  
+}
+
+#contact {
+    padding-top: 60px; /* Added space at the top of the contact section */
+}
+
+@media screen and (max-width: 600px) {
+    #contact {
+        padding-top: 30px; /* Adjusted padding for very small screens */
+    }
+}

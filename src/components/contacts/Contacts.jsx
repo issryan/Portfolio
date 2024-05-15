@@ -3,9 +3,7 @@ import './contacts.css'
 import linkedinIcon from '../../assets/linkedin.png'
 import emailIcon from '../../assets/email.png'
 
-
 const Contacts = () => {
-
   return (
     <section id="contact">
       <p className="section__text__p1">Get in Touch</p>
@@ -25,7 +23,7 @@ const Contacts = () => {
             alt="LinkedIn icon"
             className="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/ryanarafeh"className='contact-info'>LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/ryanarafeh" className='contact-info'>LinkedIn</a></p>
         </div>
       </div>
     </section>
