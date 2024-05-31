@@ -11,7 +11,7 @@ const Myprojects = () => {
   
   //alerts for when user clicks live demo buttons
   function shiftAlert() {
-    alert('IM WORKING ON IT!');
+    alert('IN PROGRESS');
   }
 
   function portfolioAlert() {
