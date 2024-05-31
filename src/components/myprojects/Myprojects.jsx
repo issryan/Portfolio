@@ -1,88 +1,79 @@
-import React from 'react'
-import './myprojects.css'
-import IMG1 from '../../assets/portfolio.png'
-import IMG2 from '../../assets/alphard_survey.png'
-import IMG3 from '../../assets/shift_logo.png'
-import IMG4 from '../../assets/breedfinder.png'
-
-
+import React, { useState } from 'react';
+import './myprojects.css';
+import IMG1 from '../../assets/portfolio.png';
+import IMG2 from '../../assets/alphard_survey.png';
+import IMG3 from '../../assets/shift_logo.png';
+import IMG4 from '../../assets/breedfinder.png';
+import ProjectModal from './ProjectModal';
 
 const Myprojects = () => {
-  
-  //alerts for when user clicks live demo buttons
-  function shiftAlert() {
-    alert('IN PROGRESS');
-  }
+  const [showModal, setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  function portfolioAlert() {
-    alert("You're already here silly!");
-  }
+  const projects = [
+    {
+      id: 1,
+      title: 'Shift Happens',
+      img: IMG3,
+      description: 'A full-stack scheduling app automating availability inputs to enhance scheduling efficiency. Designed and implemented advanced scheduling features, including an algorithm for automatic schedule generation based on employee availability and automated conflict resolution, improving efficiency by 30% and reducing manual intervention by 40%. Engineered a custom REST API using Node.js to improve real-time data synchronization between server and React frontend.',
+      github: 'https://github.com/issryan/ShiftHappens',
+      demo: ''
+    },
+    {
+      id: 2,
+      title: 'Breed Finder',
+      img: IMG4,
+      description: 'An AI-driven web app for dog breed identification, achieving 95% accuracy with TensorFlow and Flask. Leveraged the Stanford Dog Breed dataset to train the LLM model, achieving high accuracy through iterative training and optimization. Integrated Flask and React to develop a responsive web interface, enhancing user interaction and functionality. Employed MongoDB to track the history of user submissions, enhancing user engagement by enabling review of past inquiries.',
+      github: 'https://github.com/issryan/BreedFinder',
+      demo: ''
+    },
+    {
+      id: 3,
+      title: 'Portfolio',
+      img: IMG1,
+      description: 'This portfolio showcases my skills and projects. Built using React, with a focus on clean design and smooth navigation. The portfolio highlights my expertise in web development, including interactive elements and responsive design, ensuring a seamless user experience across various devices. I continuously update this portfolio to reflect my latest projects and achievements.',
+      github: 'https://github.com/issryan/Portfolio',
+      demo: ''
+    },
+    {
+      id: 4,
+      title: 'Alphard Survey',
+      img: IMG2,
+      description: 'Played a key role in the Alphard Survey project at Centennial College, leading UI/UX design and front-end implementation. Proficient in Figma, HTML, CSS, JavaScript, and well-versed in user-centered design and accessibility standards. Conducted user testing, gathering valuable feedback to optimize the website and enhance user experience. Successfully contributed to the project\'s success by ensuring a visually appealing and user-friendly website.',
+      github: 'https://github.com/Alphard-Survey/Alphard-Survey-Base-Model',
+      demo: ''
+    }
+  ];
+
+  const handleOpenModal = (project) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
 
   return (
     <section id="projects" className="my-projects-section">
-    <p className="section__text__p1">Browse My Recent</p>
+      <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>
       <div className="experience-details-container">
         <div className="about-containers">
-        <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={IMG3}
-                alt="Project 3"
-                className="project-img"
-              />
+          {projects.map((project) => (
+            <div key={project.id} className="details-container color-container" onClick={() => handleOpenModal(project)}>
+              <div className="article-container">
+                <img src={project.img} alt={project.title} className="project-img" />
+              </div>
+              <h2 className="experience-sub-title project-title">{project.title}</h2>
             </div>
-            <h2 class="experience-sub-title project-title">Shift Happens</h2>
-            <div class="btn-container">
-            <a href="https://github.com/issryan/ShiftHappens" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-            <button onClick={shiftAlert} className='btn btn-color-1' target="_blank" rel='noreferrer'>In Progress...</button>
-            </div>
-          </div>
-          <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={IMG4}
-                alt="Project 1"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">Breed Finder</h2>
-            <div className="btn-container">
-              <a href="https://github.com/issryan/BreedFinder" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-            </div>
-          </div>
-          <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={IMG1}
-                alt="Project 1"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">Portfolio</h2>
-            <div className="btn-container">
-              <a href="https://github.com/issryan/Portfolio" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              <button onClick={portfolioAlert} className='btn btn-color-1' target="_blank" rel='noreferrer'>Live Demo</button>
-            </div>
-          </div>
-          <div className="details-container color-container">
-            <div className="article-container">
-              <img
-                src={IMG2}
-                alt="Project 2"
-                className="project-img"
-              />
-            </div>
-            <h2 className="experience-sub-title project-title">Alphard Survey</h2>
-            <div className="btn-container">
-              <a href="https://github.com/Alphard-Survey/Alphard-Survey-Base-Model" className='btn btn-color-2' target="_blank" rel='noreferrer'>Github</a>
-              
-            </div>
-          </div>
+          ))}
         </div>
       </div>
+      <ProjectModal show={showModal} onClose={handleCloseModal} project={selectedProject} />
     </section>
-  )
-}
+  );
+};
 
-export default Myprojects
+export default Myprojects;
