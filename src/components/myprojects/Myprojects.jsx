@@ -6,7 +6,7 @@ import IMG3 from '../../assets/shift_logo.png';
 import IMG4 from '../../assets/breedfinder.png';
 import ProjectModal from './ProjectModal';
 
-const Myprojects = () => {
+const MyProjects = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -76,4 +76,4 @@ const Myprojects = () => {
   );
 };
 
-export default Myprojects;
+export default MyProjects;
