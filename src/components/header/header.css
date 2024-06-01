@@ -1,3 +1,12 @@
+/* 
+ * Student's Name: Ryan Arafeh
+ * StudentID: 301239052
+ * Date: May 31st 2024
+ */
+#home {
+  position: relative;
+}
+
 #profile {
   display: flex;
   justify-content: center;
@@ -85,20 +94,39 @@
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-a.btn.btn-color-2{
+a.btn.btn-color-2 {
   color: #353535;
 }
 
-a.btn-color-2:hover{
-color: white;
+a.btn-color-2:hover {
+  color: white;
 }
 
 .header-icon {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
-.header-icon:hover{
+.header-icon:hover {
   color: gray;
   text-decoration: none;
   transition: ease-in 250ms;
+}
+
+/* Arrow for scrolling */
+.arrow-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.scroll-arrow {
+  font-size: 2rem;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.scroll-arrow:hover {
+  color: #555;
 }

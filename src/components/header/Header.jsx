@@ -1,10 +1,20 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import me from '../../assets/avatar.png'
-import HeaderSocials from './HeaderSocials'
+/**
+ * Student's Name: Ryan Arafeh
+ * StudentID: 301239052
+ * Date: May 31st 2024
+ */
+import React from 'react';
+import CTA from './CTA';
+import me from '../../assets/avatar.png';
+import HeaderSocials from './HeaderSocials';
+import './header.css';
+import { FaArrowDown } from 'react-icons/fa'; 
 
 const Header = () => {
+  const scrollToAbout = () => {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <header id='home'>
       <section id="profile">
@@ -16,15 +26,18 @@ const Header = () => {
           <h1 className="title">Ryan Arafeh</h1>
           <p className="section__text__p2">Software Engineer!</p>
           <div className="btn-container">
-            <CTA/>
+            <CTA />
           </div>
           <div id="socials-container">
-            <HeaderSocials/>
+            <HeaderSocials />
           </div>
         </div>
       </section>
+      <div className="arrow-container" onClick={scrollToAbout}>
+        <FaArrowDown className="scroll-arrow" />
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
