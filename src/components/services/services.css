@@ -1,0 +1,45 @@
+#services {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .section__text__p1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .service img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .service h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .service p {
+    margin: 0;
+  }
