@@ -1,3 +1,8 @@
+/* 
+ * Student's Name: Ryan Arafeh
+ * StudentID: 301239052
+ * Date: May 31st 2024
+ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -37,7 +42,7 @@ p {
 /* SECTIONS */
 section {
     padding-top: 4vh;
-    min-height: 96vh; /* Changed from 'height' to 'min-height' */
+    min-height: 96vh; 
     margin: 0 10rem;
     box-sizing: border-box;
 }
@@ -169,11 +174,11 @@ article .icon {
 }
 
 #contact {
-    padding-top: 60px; /* Added space at the top of the contact section */
+    padding-top: 60px; 
 }
 
 @media screen and (max-width: 600px) {
     #contact {
-        padding-top: 30px; /* Adjusted padding for very small screens */
+        padding-top: 30px; 
     }
 }

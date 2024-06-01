@@ -1,9 +1,14 @@
+/**
+ * Student's Name: Ryan Arafeh
+ * StudentID: 301239052
+ * Date: May 31st 2024
+ */
 import React from 'react';
 import CTA from './CTA';
 import me from '../../assets/avatar.png';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
-import { FaArrowDown } from 'react-icons/fa'; // Import arrow icon
+import { FaArrowDown } from 'react-icons/fa'; 
 
 const Header = () => {
   const scrollToAbout = () => {

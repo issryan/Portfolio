@@ -1,3 +1,8 @@
+/**
+ * Student's Name: Ryan Arafeh
+ * StudentID: 301239052
+ * Date: May 31st 2024
+ */
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './modal.css';
