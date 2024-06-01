@@ -30,6 +30,10 @@ p {
     cursor: default;
 }
 
+.section__text__p1{
+    padding-top: 90px;
+}
+
 /* SECTIONS */
 section {
     padding-top: 4vh;

@@ -36,3 +36,10 @@ nav a.active {
     background: #1866ff;
     color: white;
 }
+
+.nav-logo img {
+    height: 35px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 6px;
+}
