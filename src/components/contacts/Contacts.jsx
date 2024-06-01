@@ -5,9 +5,7 @@ import emailIcon from '../../assets/email.png';
 
 const Contacts = () => {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    contactNumber: '',
+    fullName: '',
     email: '',
     message: ''
   });
@@ -21,13 +19,13 @@ const Contacts = () => {
     console.log('Form data:', formData);
     // Reset the form
     setFormData({
-      firstName: '',
-      lastName: '',
-      contactNumber: '',
+      fullName: '',
       email: '',
       message: ''
     });
     alert('Thank you for reaching out!');
+    // Scroll to the top of the page after form submission
+    window.location.href = '#home';
   };
 
   return (
@@ -48,25 +46,9 @@ const Contacts = () => {
         <form onSubmit={handleSubmit} className="contact-form">
           <input
             type="text"
-            name="firstName"
-            placeholder="First Name"
-            value={formData.firstName}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="lastName"
-            placeholder="Last Name"
-            value={formData.lastName}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="text"
-            name="contactNumber"
-            placeholder="Contact Number"
-            value={formData.contactNumber}
+            name="fullName"
+            placeholder="Full Name"
+            value={formData.fullName}
             onChange={handleChange}
             required
           />
