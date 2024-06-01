@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './about.css'
-import myImage from '../../assets/camera-avatar.png'
+import myImage from '../../assets/ryanImage.png'
 import educationIcon from '../../assets/education.png'
 import GPAIcon from '../../assets/grade.png'
 import hobbiesIcon from '../../assets/hobbies.png'
@@ -83,7 +83,7 @@ const About = () => {
           </div>
           <div className="carousel-button-wrapper">
             {/* See My Photos! button */}
-            <button className="carousel-button" onClick={handleOpenModal}>See Some Of My Photos!</button>
+            <button className="carousel-button" onClick={handleOpenModal}>See Some Of The Photos I've Taken!</button>
           </div>
           {/* Full-screen modal carousel */}
           <ImageModal images={carouselImages} show={showModal} handleClose={handleCloseModal} />
